@@ -44,3 +44,8 @@ variable "datacenter" {
   default                     = "dal10"
   description                 = "Your datacenter. check with 'bx cs locations'"
 }
+
+variable "newVar" {
+  type                        = "string"
+  description                 = "New variable to test releases"
+}
