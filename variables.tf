@@ -49,3 +49,9 @@ variable "newVar" {
   type                        = "string"
   description                 = "New variable to test releases"
 }
+
+variable "newVar2" {
+  type                        = "string"
+  default                     = "myval2"
+  description                 = "Second new variable to test releases"
+}
