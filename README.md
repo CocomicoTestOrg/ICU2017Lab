@@ -1,6 +1,8 @@
 
 # Welcome to the IBM Cloud University 2017 Schematics Hands-on Lab
 
+## Release: latest
+
 ## Architecture
 This repository will create a whole web shop application as a 3-tier architecture.
 
