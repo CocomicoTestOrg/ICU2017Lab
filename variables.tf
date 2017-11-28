@@ -69,3 +69,14 @@ variable "newVar2"
   default                     = "myval2"
   description                 = "Second new variable to test releases"
 }
+
+variable "shouldNotShowUp" {
+  type                        = "string"
+  default                     = "shouldNotShowUp"
+  description                 = "Test variable merge"
+}
+
+variable "shouldShowUp" {
+  type                        = "string"
+  description                 = "Test variable merge. Should show up"
+}
