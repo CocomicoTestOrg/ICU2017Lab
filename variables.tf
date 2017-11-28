@@ -45,7 +45,14 @@ variable "datacenter" {
   description                 = "Your datacenter. check with 'bx cs locations'"
 }
 
-variable "newVar" {
+variable "newVar" 
+/*
+  Following JSON is the variable annotation JSON
+  {
+  "visible" : false
+  }
+*/
+{
   type                        = "string"
   description                 = "New variable to test releases"
 }
