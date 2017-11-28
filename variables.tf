@@ -57,7 +57,14 @@ variable "newVar"
   description                 = "New variable to test releases"
 }
 
-variable "newVar2" {
+variable "newVar2"
+/*
+  Following JSON is the variable annotation JSON
+  {
+  "visible" : false
+  }
+*/
+{
   type                        = "string"
   default                     = "myval2"
   description                 = "Second new variable to test releases"
