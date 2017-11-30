@@ -61,7 +61,7 @@ variable "newVar2"
 /*
   Following JSON is the variable annotation JSON
   {
-  "visible" : false
+  "hidden" : true
   }
 */
 {
@@ -69,6 +69,20 @@ variable "newVar2"
   default                     = "myval2"
   description                 = "Second new variable to test releases"
 }
+
+variable "newVarNonHidden"
+/*
+  Following JSON is the variable annotation JSON
+  {
+  "hidden" : false
+  }
+*/
+{
+  type                        = "string"
+  default                     = "myval2"
+  description                 = "Second new variable to test releases"
+}
+
 
 variable "shouldNotShowUp" {
   type                        = "string"
